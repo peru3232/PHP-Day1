@@ -6,7 +6,7 @@
 </head>
 <body>
 <?php
-$name = "Peter Rudolf";
+$name = "Peter";
 $lastName = "Wochinger";
 echo "Hello $name $lastName,<br/> it´s ";
 echo date("D d M Y H:i:s");
