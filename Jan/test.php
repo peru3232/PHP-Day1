@@ -8,8 +8,10 @@
    <body>
        <?php
        $name = "Jan Fiedler";
-       echo"<h1>$name</h1>"; ?>
-       
+       $age = 24;
+       $job_title = "without a job.";
+       echo"<h1>$name</h1><br>"; 
+       echo "Hi, my name is " . $name . ", I am " . $age . " years old and currently " .$job_title; ?>
 
     
    </body>
